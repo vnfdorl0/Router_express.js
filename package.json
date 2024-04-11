@@ -1,0 +1,18 @@
+{
+  "name": "router_express",
+  "description": "Router 객체로 라우팅 분리하기",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "srart": "nodemon app"
+  },
+  "author": "JinseonLee",
+  "license": "MIT",
+
+  "dependencies": {
+    "exprss": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
