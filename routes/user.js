@@ -5,7 +5,7 @@ const router = express.Router();
 
 // GET 라우터 -> HTTP GET 요청 처리
 router.get('/', (req, res) => {
-    res,send('Hello, User');
+    res.send('Hello, User');
     // 클라이언트에게 문자열 전송
 });
     // router.get(라우터의 경로, (요청 객체, 응답 객체)

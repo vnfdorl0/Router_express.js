@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<!-- res.render로 부터 message와 error변수를 받아 렌더링함. -->
+<h1>{{message}}</h1>>
+<h2>{{error.status}}</h2>>
+<pre>{{error.stack}}</pre>
+<!-- pre 태스: 미리 서식이 지정된 텍스트,
+    이 태그를 사용하면 텍스트가 그대로 유지되고, 줄 바꿈과 공백도 그대로 표시됨.
+    코드 조각이나 서식이 중요한 텍스트를 표시할 때 사용됨. -->
+{% endblock %}
